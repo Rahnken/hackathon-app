@@ -1,3 +1,4 @@
+import "./App.css";
 function App() {
   return (
     <>
@@ -18,10 +19,14 @@ function App() {
         </div>
         <div className="welcome-info">
           <h3 className="our-game">our mission for you</h3>
-          <p>Anime and cartoons have become an important part of our history. they are so much more the just animations.
-            since the first cartoon was invented in 1908 they have been a way to relay life lessons in friendship,
-            love, dreams, and how over life's obstacles. So our mission to you, (if you so choose to accept it) is to 
-            show the knowledge that you have gained from these animations by guessing as many of the characters as you can.
+          <p>
+            Anime and cartoons have become an important part of our history.
+            they are so much more the just animations. since the first cartoon
+            was invented in 1908 they have been a way to relay life lessons in
+            friendship, love, dreams, and how over life's obstacles. So our
+            mission to you, (if you so choose to accept it) is to show the
+            knowledge that you have gained from these animations by guessing as
+            many of the characters as you can.
           </p>
         </div>
       </div>
