@@ -1,13 +1,13 @@
-.container-nav{
+.container-nav {
   background-color: black;
   box-shadow: 3px green;
   height: 10%;
 }
-ul{
+ul {
   display: flex;
   justify-content: space-evenly;
 }
-a{
+a {
   font-size: 27px;
   color: #03fc459d;
   text-transform: capitalize;
