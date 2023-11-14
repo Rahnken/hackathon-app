@@ -4,10 +4,11 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import {Home} from './pages/Home'
-import {About} from './pages/About'
-import {Contact} from './pages/Contact'
-import {HighScore} from './pages/HighScore'
+import Home from './pages/Home'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import HighScore from './pages/HighScore'
+import NoPage from './pages/NoPage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -40,7 +41,7 @@ function App() {
 
 export default function App
 
-/*export default function() {
+export default function() {
   return (
     <BrowserRouter>
       <Routes>
@@ -49,8 +50,8 @@ export default function App
         <Route path="/about" element={ <About />} />
         <Route path="/contact" element={ <Contact />} />
         <Route path="/highscore" element={ <HighScore />} />
+        <Route path="*" element={ <NoPage />} />
       </Routes>
     </BrowserRouter>
   )
 }
-*/
