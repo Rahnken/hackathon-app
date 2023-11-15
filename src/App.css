@@ -1,15 +1,87 @@
+:root{
+  --fontGreen: #03fc459d;
+  --fontShadow: #51ff00;
+  --yellow: #d4cd17;
+  --15px: 0.938rem;
+  --20px: 1.25rem;
+  --25px: 1.563rem;
+  --40px: 2.5rem;
+  --45px: 2.813rem;
+  --50px: 3.125rem;
+  --75px: 4.688rem;
+  --100px: 6.25rem;
+}
+body{place-items: center;}
+
 .container-nav {
   background-color: black;
-  box-shadow: 3px green;
-  height: 10%;
+  box-shadow: 3px 3px 3px green;
+  height: var(--75px);
 }
 ul {
+  padding-top: var(--15px);
   display: flex;
   justify-content: space-evenly;
 }
 a {
   font-size: 27px;
-  color: #03fc459d;
+  color: var(--fontGreen);
   text-transform: capitalize;
-  text-shadow: 2px 2px 5px #51ff00;
+  text-shadow: 2px 2px 5px var(--fontShadow);
 }
+a:hover{
+  color:white
+}
+.container-body{
+  background-color: black;  
+  text-align: center;
+}
+h1{
+  font-size: var(--100px);
+  color: var(--fontGreen);
+  letter-spacing: 5px;
+}
+.glitch{
+  position: relative;
+  text-shadow:
+  0.05em 0 0 var(--yellow),
+  -0.035em 0 0 var(--fontShadow),
+  0.025em 0 0 white;
+
+  animation: glitch 2000ms infinite;
+}
+.glitch span{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@keyframes glitch{
+  0%{  text-shadow:
+    0.05em 0 0 var(--yellow),
+    -0.035em -0.05em 0 0 var(--fontShadow),
+    -0.025em 0.05em 0 0 white;}
+  14%{  text-shadow:
+    -0.05em 0 0 var(--yellow),
+    0.035em 0.05em 0 0 var(--fontShadow),
+    0.025em 0 0 white;}
+  15%{  text-shadow:
+    -0.05em 0 0 var(--yellow),
+    -0.035em -0.05em 0 0 var(--fontShadow),
+    0.025em -0.05em 0 0 white;}
+  49%{  text-shadow:
+    0.05em 0 0 var(--yellow),
+    0.035em 0.05 0 0 var(--fontShadow),
+    -0.025em 0.05em 0 0 white;}
+  50%{  text-shadow:
+    0.05em 0 0 var(--fontGreen),
+    -0.035em 0 0 var(--fontShadow),
+    0.025em 0 0 white;}
+  90%{  text-shadow:
+    0.07em 0 0 var(--fontGreen),
+    0.035em -0.07em 0 0 var(--fontShadow),
+    -0.025em 0.03em 0 0 white;}
+  100%{  text-shadow:
+    0.05em 0 0 var(--fontGreen),
+    -0.035em 0 0 var(--fontShadow),
+    0.025em 0 0 white;}
+  }
