@@ -2,6 +2,7 @@
   --fontGreen: #03fc459d;
   --fontShadow: #51ff00;
   --yellow: #d4cd17;
+  --blue: #16bab7;
   --15px: 0.938rem;
   --20px: 1.25rem;
   --25px: 1.563rem;
@@ -42,7 +43,9 @@ h1{
   letter-spacing: 5px;
 }
 .glitch{
+  padding: 100px 0px;
   position: relative;
+  left: 30%;
   text-shadow:
   0.05em 0 0 var(--yellow),
   -0.035em 0 0 var(--fontShadow),
@@ -53,35 +56,35 @@ h1{
 .glitch span{
   position: absolute;
   top: 0;
-  left: 0;
+  left: 5%;
 }
 @keyframes glitch{
   0%{  text-shadow:
     0.05em 0 0 var(--yellow),
     -0.035em -0.05em 0 0 var(--fontShadow),
-    -0.025em 0.05em 0 0 white;}
+    -0.025em 0.05em 0 0 var(--blue);}
   14%{  text-shadow:
     -0.05em 0 0 var(--yellow),
     0.035em 0.05em 0 0 var(--fontShadow),
-    0.025em 0 0 white;}
+    0.025em 0 0 var(--blue);}
   15%{  text-shadow:
     -0.05em 0 0 var(--yellow),
     -0.035em -0.05em 0 0 var(--fontShadow),
-    0.025em -0.05em 0 0 white;}
+    0.025em -0.05em 0 0 var(--blue);}
   49%{  text-shadow:
     0.05em 0 0 var(--yellow),
     0.035em 0.05 0 0 var(--fontShadow),
-    -0.025em 0.05em 0 0 white;}
+    -0.025em 0.05em 0 0 var(--blue);}
   50%{  text-shadow:
     0.05em 0 0 var(--fontGreen),
     -0.035em 0 0 var(--fontShadow),
-    0.025em 0 0 white;}
+    0.025em 0 0 var(--blue);}
   90%{  text-shadow:
     0.07em 0 0 var(--fontGreen),
     0.035em -0.07em 0 0 var(--fontShadow),
-    -0.025em 0.03em 0 0 white;}
+    -0.025em 0.03em 0 0 var(--blue);}
   100%{  text-shadow:
     0.05em 0 0 var(--fontGreen),
     -0.035em 0 0 var(--fontShadow),
-    0.025em 0 0 white;}
+    0.025em 0 0 var(--blue);}
   }
