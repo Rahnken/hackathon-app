@@ -14,7 +14,7 @@ export default function Home() {
       <div className="container-body">
         <div className="container-title">
           <h1 className="glitch">2Fly4Wifi</h1>
-          <h2>by jon's angels</h2>
+          <h2 className="glitch">by jon's angels</h2>
         </div>
         <div className="welcome-info">
           <h3 className="our-game">our mission for you</h3>

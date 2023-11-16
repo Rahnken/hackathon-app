@@ -45,10 +45,27 @@ h1{
   color: var(--fontGreen);
   letter-spacing: 5px;
 }
+h2, h3{
+  font-size: var(--75px);
+  color: var(--fontGreen);
+  text-shadow: 2px 2px 2px var(--fontShadow);
+  text-transform: capitalize;
+  font-weight: 300;
+}
+h3{
+  color: var(--yellow);
+}
+p{
+  line-height: var(--40px);
+  letter-spacing: 2px;
+  margin: 0rem 17.5rem;
+  padding: 0px var(--100px);
+  font-weight: 800;
+  color: var(--blue);
+  text-transform: capitalize;
+  font-size: var(--20px);
+}
 .glitch {
-  position: absolute;
-  padding: 100px 0px;
-  position: relative;
   top: 0;
   left: 0;
   font-weight: lighter;
@@ -58,6 +75,11 @@ h1{
   0.025em 0 0 white;
 
   animation: glitch 2000ms infinite;
+}
+.error{
+  font-size: var(--100px);
+  font-weight: 600;
+  letter-spacing: 3px;
 }
 
 @keyframes glitch{
@@ -89,4 +111,24 @@ h1{
     0.05em 0 0 var(--fontGreen),
     -0.035em 0 0 var(--fontShadow),
     0.025em 0 0 var(--blue);}
+  }
+  @media (max-width: 1024px) {
+    
+    p{margin: 1rem;
+      padding: var(--20px);
+    }
+
+  }
+  @media (max-width: 800px) {
+    nav{display: none;}
+    h1{font-size: var(--75px);}
+    h2,h3{font-size: var(--50px);}
+    p{font-weight: 500;
+      line-height: 24px;}
+  }
+  @media (max-width: 400px) {
+    h1{font-size:var(--50px)}
+    h2,h3{font-size: var(--40px);}
+    p{font-weight: 400;
+      line-height: 22px;}
   }

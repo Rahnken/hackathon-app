@@ -1,7 +1,7 @@
 export default function NoPage() {
   return (
     <>
-      <h2 className="glitch">Error: 404</h2>
+      <h2 className="glitch error">Error: 404</h2>
     </>
   );
 }
