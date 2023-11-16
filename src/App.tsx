@@ -12,21 +12,12 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import { far } from "@fortawesome/free-regular-svg-icons";
 import { Game } from "./pages/Game";
 
-// this is temporary until I figure out a better way to do this
-import eeveeImg from "./img/eevee.jpg";
-import eeveeSilhoutteImg from "./img/eeveeSil.jpg";
+import characters from "../public/img/characters.json";
+import { Character } from "./utils/types";
 
 library.add(fab, fas, far);
 
 export default function App() {
-  const gameCharacter = {
-    id: 1,
-    name: "Eevee",
-    show: "Pokemon",
-    img: eeveeImg,
-    silhoutteImg: eeveeSilhoutteImg,
-  };
-
   return (
     <BrowserRouter>
       <Routes>
@@ -35,7 +26,10 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/highscore" element={<HighScore />} />
         <Route path="*" element={<NoPage />} />
-        <Route path="/game" element={<Game {...gameCharacter} />} />
+        <Route
+          path="/game"
+          element={<Game characters={characters as Character[]} />}
+        />
       </Routes>
     </BrowserRouter>
   );

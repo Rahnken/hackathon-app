@@ -35,7 +35,7 @@ export const CharacterCard = ({
           }}
         >
           <img
-            src={character.silhoutteImg}
+            src={character.silhouetteImg}
             alt={character.name}
             style={{
               width: "100%",

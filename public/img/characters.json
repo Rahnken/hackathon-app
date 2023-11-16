@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Eevee",
+    "show": "Pokemon",
+    "img": "/img/eevee.png",
+    "silhouetteImg": "/img/eeveeSil.png"
+  },
+  {
+    "id": 2,
+    "name": "Pikachu",
+    "show": "Pokemon",
+    "img": "/img/pikachu.jpg",
+    "silhouetteImg": "/img/pikachuSil.png"
+  },
+  {
+    "id": 3,
+    "name": "Charizard",
+    "show": "Pokemon",
+    "img": "/img/charizard.png",
+    "silhouetteImg": "/img/charizardSil.png"
+  },
+  {
+    "id": 4,
+    "name": "Goku",
+    "show": "Dragon Ball Z",
+    "img": "/img/goku.png",
+    "silhouetteImg": "/img/gokuSil.png"
+  },
+  {
+    "id": 5,
+    "name": "Inuyasha",
+    "show": "Inuyasha",
+    "img": "/img/inuyasha.png",
+    "silhouetteImg": "/img/inuyashaSil.png"
+  },
+  {
+    "id": 6,
+    "name": "Vince",
+    "show": "Recess",
+    "img": "/img/vince.png",
+    "silhouetteImg": "/img/vinceSil.png"
+  },
+  {
+    "id": 7,
+    "name": "Mikey",
+    "show": "Recess",
+    "img": "/img/mikey.png",
+    "silhouetteImg": "/img/mikeySil.png"
+  }
+]
