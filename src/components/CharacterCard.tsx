@@ -1,5 +1,5 @@
 import { Character } from "../utils/types";
-import { useState, useEffect } from "react";
+
 export const CharacterCard = ({
   character,
   isFlipped,
