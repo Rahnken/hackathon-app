@@ -1,5 +1,5 @@
 import { Character } from "../utils/types";
-
+import { useState, useEffect } from "react";
 export const CharacterCard = ({
   character,
   isFlipped,
@@ -35,7 +35,7 @@ export const CharacterCard = ({
           }}
         >
           <img
-            src={character.silhoutteImg}
+            src={character.silhouetteImg}
             alt={character.name}
             style={{
               width: "100%",

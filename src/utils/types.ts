@@ -1,7 +1,7 @@
 export type Character = {
   id: number;
   name: string;
-  silhoutteImg: string;
+  silhouetteImg: string;
   img: string;
   show: string;
 };
