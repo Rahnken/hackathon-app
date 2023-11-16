@@ -13,10 +13,7 @@ export default function Home() {
       </div>
       <div className="container-body">
         <div className="container-title">
-          <h1 className="glitch">
-            <span>2Fly4Wifi</span>
-            <span aria-hidden="true">2Fly4Wifi</span>
-            <span aria-hidden="true">2Fly4Wifi</span></h1>
+          <h1 className="glitch">2Fly4Wifi</h1>
           <h2>by jon's angels</h2>
         </div>
         <div className="welcome-info">
