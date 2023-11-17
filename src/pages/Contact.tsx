@@ -16,7 +16,7 @@ export default function Contact() {
             <li>facebook</li>
             <li>linkedin</li>
             <li>Github</li>
-            <li>email</li>
+            <li>jessica.pickens@gmail.com</li>
           </ul>
         </div>
         <div className="person-one">
@@ -36,7 +36,7 @@ export default function Contact() {
             <li>
               Github <a href="https://github.com/Rahnken" id="git"></a>
             </li>
-            <li>email</li>
+            <li>eric.donnelly@gmail.com</li>
           </ul>
         </div>
         <div className="person-one">
@@ -56,6 +56,13 @@ export default function Contact() {
               GitHub <a href="https://github.com/DuffCoding" id="git"></a>
             </li>
             <li>duffx069@umn.edu</li>
+            <li>
+              Website{" "}
+              <a
+                href="https://codepen.io/Jonathan-Duff/pen/VwrqmvG"
+                id="CodePen Website"
+              ></a>
+            </li>
           </ul>
         </div>
       </div>
