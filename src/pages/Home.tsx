@@ -11,10 +11,10 @@ export default function Home() {
         <h2 className="glitch">by jon's angels</h2>
       </div>
       <div className="welcome-info">
-        <h3 className="our-game">our mission for you</h3>
+        <h3 className="our-game"> Our Mission for You</h3>
         <p>
-          Anime and cartoons have become an important part of our history. they
-          are so much more the just animations. since the first cartoon was
+          Anime and cartoons have become an important part of our history. They
+          are so much more the just animations. Since the first cartoon was
           invented in 1908 they have been a way to relay life lessons in
           friendship, love, dreams, and how over life's obstacles. So our
           mission to you, (if you so choose to accept it) is to show the

@@ -19,6 +19,9 @@
 .flex1 {
   flex: 1;
 }
+
+/*nav css*/
+
 .container-nav {
   background-color: black;
   box-shadow: 3px 3px 3px green;
@@ -33,11 +36,12 @@ a {
   text-transform: capitalize;
   text-shadow: 2px 2px 5px var(--fontShadow);
 }
-a:hover {
-  color: white;
-}
-.container-body {
-  background-color: black;
+
+a:hover{color:white}
+
+/*general css */
+.container-body{
+  background-color: black;  
   text-align: center;
   margin: 0px;
   text-align: center;
@@ -45,21 +49,22 @@ a:hover {
 .container-title {
   position: relative;
 }
+
 h1 {
-  margin: 30px 10px -41px 20px;
   font-size: var(--100px);
   color: var(--fontGreen);
   letter-spacing: 5px;
 }
 h2 {
-  margin: -49px 0px 0px 0px;
-  font-size: var(--75px);
+  font-size: var(--75px)
 }
+
 h3 {
   margin: 20px 0px 30px 8px;
   color: var(--yellow);
   font-size: 60px;
 }
+
 h2,
 h3 {
   color: var(--fontGreen);
@@ -67,28 +72,113 @@ h3 {
   text-transform: capitalize;
   font-weight: 300;
 }
+
 p {
   line-height: var(--40px);
   letter-spacing: 2px;
-  margin: 0rem 13.5rem;
-  padding: 0px var(--100px);
   font-weight: 800;
   color: var(--blue);
   text-transform: capitalize;
   font-size: var(--20px);
 }
+
+
+/*home-page css*/
+.home-page-h2{
+  margin: 30px 10px -41px 20px;
+}
+.home-page-h3{
+  margin: -49px 0px 0px 0px;
+}
+.home-page-p{
+  margin: 0rem 13.5rem;
+  padding: 0px var(--100px);
+}
 .glitch {
   font-weight: lighter;
-  text-shadow: 0.05em 0 0 var(--yellow), -0.035em 0 0 var(--fontShadow),
-    0.025em 0 0 white;
-
-  animation: glitch 2000ms infinite;
+  text-shadow:
+  0.05em 0 0 var(--yellow),
+  -0.035em 0 0 var(--fontShadow),
+  0.025em 0 0 white;
+  animation: glitch 2000ms 60s;
 }
+
+/* Game page css*/
+.game-page {
+  margin: 0px;
+}
+
+div .card-container {
+  display: inline-block;
+  max-width: 19.875rem;
+  max-height: 27.25rem;
+  min-width: 14.75rem;
+}
+
+div .card-container img {
+  max-width: 19.875rem;
+  max-height: 27.25rem;
+  min-width: 14.75rem;
+}
+
+.character-container-main,
+.color-container-2,
+.color-container-3,
+.color-container-4,
+.color-container-5 {
+  padding: 25px;
+  border: 3px solid black;
+}
+.character-container-main {
+  background-color: var(--yellow);
+  margin: 1px 600px;
+}
+.color-container-2 {
+  background-color: var(--fontShadow);
+}
+.color-container-3 {
+  background-color: var(--blue);
+}
+.color-container-4 {
+  background-color: var(--fontGreen);
+}
+.color-container-5 {
+  background-color: black;
+}
+.guess-button-container button, .next-button {
+  font-size: var(--20px);
+  text-shadow: .5px .5px 1px 1px black;
+  background: linear-gradient(140deg,var(--blue),var(--yellow));
+  border: 1px solid rgba(255, 255, 255, 0);
+  box-shadow: 1px 1px 1px 1px var(--fontShadow);
+  padding: 5px 10px;
+  letter-spacing: 1px;
+  margin: 5px;
+}
+
+.guess-button-container button:hover {
+  color: black;
+  font-size: 20.5px;
+}
+
+.score h3, .high-score h3 {
+  color: black;
+  text-shadow: 1px 1px 1px white;
+  font-weight: 800;  letter-spacing: 2px;
+  color:black;
+  text-transform: capitalize;
+  font-size: 30px;
+  padding: 5px;
+  margin: 5px;
+}
+
 .error {
   font-size: var(--100px);
   font-weight: 600;
   letter-spacing: 3px;
 }
+
+
 @keyframes glitch {
   0% {
     text-shadow: 0.05em 0 0 var(--yellow),

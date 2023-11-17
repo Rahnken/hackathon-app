@@ -65,41 +65,67 @@ export const Game = ({ characters }: { characters: Character[] }) => {
 
   return (
     <>
-      <CharacterCard
-        character={characters[currentCharacterIndex]}
-        isFlipped={isFlipped}
-      />
-      {/* // Should I move this to a separate component? */}
-      {!hasGuessed && (
-        <div className="guess-button-container">
-          <button id="opt-1" onClick={handleGuess} className="guess-button">
-            {options[0]}
-          </button>
-          <button id="opt-2" onClick={handleGuess} className="guess-button">
-            {options[1]}
-          </button>
-          <button id="opt-3" onClick={handleGuess} className="guess-button">
-            {options[2]}
-          </button>
-          <button id="opt-4" onClick={handleGuess} className="guess-button">
-            {options[3]}
-          </button>
+      <div className="container-body">
+        <div className="left-sidebar">
+          <img src="src\img\left-sidebar.png" alt="cartoon-collage" />
         </div>
-      )}
-      {hasGuessed && (
-        <div className="next-button-container">
-          <button
-            id="next-button"
-            className="next-button"
-            onClick={nextCharacter}
-          >
-            Next
-          </button>
+        <div className="right-sidebar">
+            <img src="src\img\right-sidebar1.png" alt="anime-collage" />
+          </div>
+        <div className="body-content">
+          <h2 className="game-page">Guess Who Game</h2>
+            <div className="character-container-main">
+              <div className="color-container-2">
+                <div className="color-container-3">
+                  <div className="color-container-4">
+                    <div className="color-container-5">
+                      <CharacterCard
+                        character={characters[currentCharacterIndex]}
+                        isFlipped={isFlipped}
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="score-container">
+                <div className="score">
+                  <h3>Score: {score}</h3>
+                </div>
+                <div className="high-score">
+                  <h3>High Score: {highScore}</h3>
+                </div>
+              </div>
+            </div>
+          {/* // Should I move this to a separate component? */}
+          {!hasGuessed && (
+            <div className="guess-button-container">
+              <button id="opt-1" onClick={handleGuess} className="guess-button">
+                {options[0]}
+              </button>
+              <button id="opt-2" onClick={handleGuess} className="guess-button">
+                {options[1]}
+              </button>
+              <button id="opt-3" onClick={handleGuess} className="guess-button">
+                {options[2]}
+              </button>
+              <button id="opt-4" onClick={handleGuess} className="guess-button">
+                {options[3]}
+              </button>
+            </div>
+          )}
+          {hasGuessed && (
+            <div className="next-button-container">
+              <button
+                id="next-button"
+                className="next-button"
+                onClick={nextCharacter}
+              >
+                Next
+              </button>
+            </div>
+          )}
+
         </div>
-      )}
-      <div className="score-container">
-        <div className="score">Score: {score}</div>
-        <div className="high-score">High Score: {highScore}</div>
       </div>
     </>
   );
