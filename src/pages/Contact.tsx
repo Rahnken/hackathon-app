@@ -10,37 +10,52 @@ export default function Contact() {
         <div className="person-one">
           <h4 className="Name">Jessica Pickens</h4>
           <div className="img-container">
-            <img src="" alt="" />
+            <img src="src/img/RickJess.png" alt="Rick and Morty Jess" />
           </div>
           <ul>
             <li>facebook</li>
-            <li>linkin</li>
-            <li>indeed</li>
+            <li>linkedin</li>
+            <li>Github</li>
             <li>email</li>
           </ul>
         </div>
         <div className="person-one">
           <h4 className="Name">Eric Donnelly</h4>
           <div className="img-container">
-            <img src="" alt="" />
+            <img src="src/img/RickEric.png" alt="Rick and Morty Eric" />
           </div>
           <ul>
             <li>facebook</li>
-            <li>linkin</li>
-            <li>indeed</li>
+            <li>
+              linkedin{" "}
+              <a
+                href="https://www.linkedin.com/in/erdonnelly/"
+                id="linkedin"
+              ></a>
+            </li>
+            <li>
+              Github <a href="https://github.com/Rahnken" id="git"></a>
+            </li>
             <li>email</li>
           </ul>
         </div>
         <div className="person-one">
           <h4 className="Name">Jon Duff</h4>
           <div className="img-container">
-            <img src="" alt="" />
+            <img src="src/img/RickJon.png" alt="Rick and Morty Jon" />
           </div>
           <ul>
-            <li>facebook</li>
-            <li>linkin</li>
-            <li>indeed</li>
-            <li>email</li>
+            <li>
+              linkedin{" "}
+              <a
+                href="https://www.linkedin.com/in/jonathan-duff"
+                id="linkedin"
+              ></a>
+            </li>
+            <li>
+              GitHub <a href="https://github.com/DuffCoding" id="git"></a>
+            </li>
+            <li>duffx069@umn.edu</li>
           </ul>
         </div>
       </div>
