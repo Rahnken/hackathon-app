@@ -1,16 +1,12 @@
+import { LayoutPage } from "../components/Layouts/LayoutPage";
+
 export default function Contact() {
   return (
-    <>
-      <div className="left-sidebar">
-        <img src="src\img\left-sidebar.png" alt="cartoon-collage" />
-      </div>        
-      <div className="right-sidebar">
-        <img src="src\img\right-sidebar1.png" alt="anime-collage" />
-      </div>
-      <div className="container-body">
-        <div className="body-content">
+    <LayoutPage>
           <h2>Contact</h2>
+<!--       TODO: Refactor out into a creator card -->
           <div className="grid-container">
+<!--             <CreatorCard name="Jessica" img="img..." socials= [socials]/>  -->
             <div className="person-one">
               <h4 className="Name">Jessica Pickens</h4>
               <div className="img-container">
@@ -24,7 +20,7 @@ export default function Contact() {
               </ul>
             </div>
             <div className="person-one">
-              <h4 className="Name">Eric</h4>
+              <h4 className="Name">Eric Donnelly</h4>
               <div className="img-container">
                 <img src="" alt="" />
               </div>
@@ -36,7 +32,7 @@ export default function Contact() {
               </ul>
             </div>
             <div className="person-one">
-              <h4 className="Name">Jon </h4>
+              <h4 className="Name">Jon Duff</h4>
               <div className="img-container">
                 <img src="" alt="" />
               </div>
@@ -48,8 +44,6 @@ export default function Contact() {
               </ul>
             </div>
           </div>
-        </div>
-      </div>
-    </>
+   </LayoutPage>
   );
 }
