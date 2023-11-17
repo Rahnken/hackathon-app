@@ -70,32 +70,32 @@ export const Game = ({ characters }: { characters: Character[] }) => {
           <img src="src\img\left-sidebar.png" alt="cartoon-collage" />
         </div>
         <div className="right-sidebar">
-            <img src="src\img\right-sidebar1.png" alt="anime-collage" />
-          </div>
+          <img src="src\img\right-sidebar1.png" alt="anime-collage" />
+        </div>
         <div className="body-content">
           <h2 className="game-page">Guess Who Game</h2>
-            <div className="character-container-main">
-              <div className="color-container-2">
-                <div className="color-container-3">
-                  <div className="color-container-4">
-                    <div className="color-container-5">
-                      <CharacterCard
-                        character={characters[currentCharacterIndex]}
-                        isFlipped={isFlipped}
-                      />
-                    </div>
+          <div className="character-container-main">
+            <div className="color-container-2">
+              <div className="color-container-3">
+                <div className="color-container-4">
+                  <div className="color-container-5">
+                    <CharacterCard
+                      character={characters[currentCharacterIndex]}
+                      isFlipped={isFlipped}
+                    />
                   </div>
                 </div>
               </div>
-              <div className="score-container">
-                <div className="score">
-                  <h3>Score: {score}</h3>
-                </div>
-                <div className="high-score">
-                  <h3>High Score: {highScore}</h3>
-                </div>
+            </div>
+            <div className="score-container">
+              <div className="score">
+                <h3>Score: {score}</h3>
+              </div>
+              <div className="high-score">
+                <h3>High Score: {highScore}</h3>
               </div>
             </div>
+          </div>
           {/* // Should I move this to a separate component? */}
           {!hasGuessed && (
             <div className="guess-button-container">
@@ -124,7 +124,6 @@ export const Game = ({ characters }: { characters: Character[] }) => {
               </button>
             </div>
           )}
-
         </div>
       </div>
     </>
