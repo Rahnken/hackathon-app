@@ -12,9 +12,6 @@ export const CharacterCard = ({
       {isFlipped ? (
         <div
           className="card-container"
-          style={{
-            width: 400,
-          }}
         >
           <img
             src={character.img}
@@ -30,17 +27,10 @@ export const CharacterCard = ({
       ) : (
         <div
           className="card-container"
-          style={{
-            width: 400,
-          }}
         >
           <img
             src={character.silhouetteImg}
             alt={character.name}
-            style={{
-              width: "100%",
-              height: "100%",
-            }}
           />
         </div>
       )}

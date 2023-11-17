@@ -6,10 +6,12 @@ export function About() {
           <img src="src\img\left-sidebar.png" alt="cartoon-collage" />
         </div>
         <div className="body-content">
-          <h2>About</h2>
-        </div>
-        <div className="right-sidebar">
-          <img src="src\img\right-sidebar1.png" alt="anime-collage" />
+          <h2>Our Hackathon</h2>
+          <p className="sources">
+            <ul>
+              <li>https://gorickyourself.com/</li>
+            </ul>
+          </p>
         </div>
       </div>
     </>
