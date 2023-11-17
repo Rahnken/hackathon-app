@@ -7,7 +7,7 @@ export default function Home() {
       <div className="right-sidebar">
         <img src="src\img\right-sidebar1.png" alt="anime-collage" />
       </div>
-      <div className="container-body">
+      <div className="container-body home-page">
         <div className="container-nav">
           <nav>
             <ul>
@@ -20,15 +20,15 @@ export default function Home() {
         </div>
         <div className="body-content">
           <div className="container-title">
-            <h1 className="glitch">2fly4wifi</h1>
+            <h1 className="glitch home-page">2fly4wifi</h1>
             <div className="logo-container">
               <img src="src\img\2fly4wifi-logo.png" alt="2fly4wifi-logo" />
             </div>
-            <h2 className="glitch">by jon's angels</h2>
+            <h2 className="glitch home-page-h2">by jon's angels</h2>
           </div>
           <div className="welcome-info">
-            <h3 className="our-game">our mission for you</h3>
-            <p>
+            <h3 className="our-game home-page-h3">our mission for you</h3>
+            <p className="home-page-p">
               Anime and cartoons have become an important part of our history.
               they are so much more the just animations. since the first cartoon
               was invented in 1908 they have been a way to relay life lessons in
