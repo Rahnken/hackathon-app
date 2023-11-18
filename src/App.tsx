@@ -31,7 +31,7 @@ export default function App() {
           path="/game"
           element={<Game characters={characters as Character[]} />}
         />
-        <Route path="/SubmitScore" />
+        <Route path="/SubmitScore" element={<SubmitScore />} />
       </Routes>
     </BrowserRouter>
   );

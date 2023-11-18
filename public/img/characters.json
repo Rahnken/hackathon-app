@@ -64,192 +64,192 @@
   },
   {
     "id": 10,
-    "name": "argumon",
+    "name": "Argumon",
     "show": "Digimon",
     "img": "/img/argumon.png",
     "silhouetteImg": "/img/argumonsil.png"
   },
   {
     "id": 11,
-    "name": "astro",
-    "show": "the jetsons",
-    "img": "/img/astro.png",
-    "silhouetteImg": "/img/astrosil.png"
+    "name": "Astro",
+    "show": "The Jetsons",
+    "img": "/img/Astro.png",
+    "silhouetteImg": "/img/Astrosil.png"
   },
   {
     "id": 12,
-    "name": "astroboy",
-    "show": "astroboy",
+    "name": "Astroboy",
+    "show": "Astroboy",
     "img": "/img/astroboy.png",
     "silhouetteImg": "/img/astroboysil.png"
   },
   {
     "id": 13,
-    "name": "bart",
-    "show": "the simpsons",
+    "name": "Bart",
+    "show": "The Simpsons",
     "img": "/img/bart.png",
     "silhouetteImg": "/img/bartsil.png"
   },
   {
     "id": 14,
-    "name": "batman",
-    "show": "superfriends",
+    "name": "Batman",
+    "show": "Superfriends",
     "img": "/img/batman.png",
     "silhouetteImg": "/img/batmansil.png"
   },
   {
     "id": 15,
-    "name": "billy",
-    "show": "grim adventures of billy and mandy",
+    "name": "Billy",
+    "show": "Grim Adventures of Billy and Mandy",
     "img": "/img/billy.png",
     "silhouetteImg": "/img/billysil.png"
   },
   {
     "id": 16,
-    "name": "booboo",
-    "show": "the yogi bear show",
+    "name": "Booboo",
+    "show": "The Yogi Bear Show",
     "img": "/img/BooBoo.png",
     "silhouetteImg": "/img/BooBoosil.png"
   },
   {
     "id": 17,
-    "name": "brain",
-    "show": "pinky and the brain",
+    "name": "Brain",
+    "show": "Pinky and the Brain",
     "img": "/img/Brain.png",
     "silhouetteImg": "/img/Brainsil.png"
   },
   {
     "id": 18,
-    "name": "bugs bunny",
-    "show": "the looney tunes",
-    "img": "/img/bugsbunny.png",
+    "name": "Bugs Bunny",
+    "show": "The Looney Tunes",
+    "img": "/img/bugsbunnys.png",
     "silhouetteImg": "/img/bugsbunnysil.png"
   },
   {
     "id": 19,
-    "name": "bumblelion",
-    "show": "the wuzzles",
+    "name": "Bumblelion",
+    "show": "The Wuzzles",
     "img": "/img/bumblelion.png",
     "silhouetteImg": "/img/bumblelionsil.png"
   },
   {
     "id": 20,
-    "name": "butterbear",
-    "show": "the wuzzles",
+    "name": "Butterbear",
+    "show": "The Wuzzles",
     "img": "/img/butterbear.png",
     "silhouetteImg": "/img/butterbearsil.png"
   },
   {
     "id": 21,
-    "name": "buttercup",
-    "show": "powerpuff girls",
+    "name": "Buttercup",
+    "show": "Powerpuff Girls",
     "img": "/img/buttercup.png",
     "silhouetteImg": "/img/buttercupstil.png"
   },
   {
     "id": 23,
-    "name": "captin planet",
-    "show": "powerpuff girls",
+    "name": "Captin Planet",
+    "show": "Powerpuff Girls",
     "img": "/img/captinPlanet.png",
     "silhouetteImg": "/img/captinPlanetstil.png"
   },
   {
     "id": 24,
-    "name": "casper",
-    "show": "The spooktacular new adventures of casper",
-    "img": "/img/buttercup.png",
-    "silhouetteImg": "/img/buttercupstil.png"
+    "name": "Casper",
+    "show": "The Spooktacular New Adventures of Casper",
+    "img": "/img/casper.png",
+    "silhouetteImg": "/img/casperstil.png"
   },
   {
     "id": 25,
-    "name": "cassie",
-    "show": "dragon tails",
+    "name": "Cassie",
+    "show": "Dragon Tails",
     "img": "/img/cassie.png",
     "silhouetteImg": "/img/cassiestill.png"
   },
   {
     "id": 26,
-    "name": "catdog",
-    "show": "catdog",
+    "name": "Catdog",
+    "show": "Catdog",
     "img": "/img/catdog.png",
     "silhouetteImg": "/img/catdogstil.png"
   },
   {
     "id": 27,
-    "name": "charlie",
-    "show": "the peanuts",
+    "name": "Charlie Brown",
+    "show": "The Peanuts",
     "img": "/img/charlieBrown.png",
     "silhouetteImg": "/img/charlieBrownstil.png"
   },
   {
     "id": 28,
-    "name": "courage",
-    "show": "courage the cowardly dog",
+    "name": "Courage",
+    "show": "Courage the Cowardly Dog",
     "img": "/img/courage.png",
     "silhouetteImg": "/img/couragesil.png"
   },
   {
     "id": 29,
-    "name": "daphne",
+    "name": "Daphne",
     "show": "Scooby Doo",
     "img": "/img/daphne.png",
     "silhouetteImg": "/img/daphnesil.png"
   },
   {
     "id": 30,
-    "name": "dennis",
+    "name": "Dennis",
     "show": "Dennis the mennis",
     "img": "/img/dennis.png",
     "silhouetteImg": "/img/dennissil.png"
   },
   {
     "id": 31,
-    "name": "dexter",
+    "name": "Dexter",
     "show": "Dexters Laboratory",
     "img": "/img/dexter.png",
     "silhouetteImg": "/img/dextersil.png"
   },
   {
     "id": 32,
-    "name": "eegore",
-    "show": "The new adventures of winnie the pooh",
+    "name": "Eeyore",
+    "show": "The New Adventures of Winnie the Pooh",
     "img": "/img/eegore.png",
     "silhouetteImg": "/img/eegoresil.png"
   },
   {
     "id": 33,
     "name": "Eustace",
-    "show": "courage the cowardly dog",
+    "show": "Courage the Cowardly Dog",
     "img": "/img/EustaceBagge.png",
     "silhouetteImg": "/img/EustaceBaggesil.png"
   },
   {
     "id": 34,
-    "name": "flash",
-    "show": "superfriends",
+    "name": "The Flash",
+    "show": "Superfriends",
     "img": "/img/flash.png",
     "silhouetteImg": "/img/flashsil.png"
   },
   {
     "id": 35,
-    "name": "fred",
-    "show": "The flintstones",
+    "name": "Fred Flintstone",
+    "show": "The Flintstones",
     "img": "/img/fred.png",
     "silhouetteImg": "/img/fredsil.png"
   },
   {
     "id": 36,
-    "name": "garfield",
+    "name": "Garfield",
     "show": "Garfield",
     "img": "/img/garfield.png",
     "silhouetteImg": "/img/garfieldsil.png"
   },
   {
     "id": 37,
-    "name": "george",
+    "name": "George Jetson",
     "show": "the jetsons",
-    "img": "/img/george.png",
-    "silhouetteImg": "/img/georgesil.png"
+    "img": "/img/George.png",
+    "silhouetteImg": "/img/Georgesil.png"
   },
   {
     "id": 38,
@@ -261,9 +261,9 @@
   {
     "id": 39,
     "name": "Harold",
-    "show": "Fat Albert and the cosby kids",
+    "show": "Fat Albert and the Cosby kids",
     "img": "/img/Harold.png",
-    "silhouetteImg": "/img/haroldsil.png"
+    "silhouetteImg": "/img/Haroldsil.png"
   },
   {
     "id": 40,
@@ -281,22 +281,22 @@
   },
   {
     "id": 43,
-    "name": "himura",
+    "name": "Himura",
     "show": "Rurouni Kenshin",
     "img": "/img/himura.png",
     "silhouetteImg": "/img/himurasil.png"
   },
   {
     "id": 44,
-    "name": "homer",
-    "show": "the simpsons",
+    "name": "Homer Simpson",
+    "show": "The Simpsons",
     "img": "/img/homer.png",
     "silhouetteImg": "/img/homersil.png"
   },
   {
     "id": 45,
-    "name": "irwin",
-    "show": "grim adventures of billy and mandy",
+    "name": "Irwin",
+    "show": "Grim Adventures of Billy and Mandy",
     "img": "/img/irwin.png",
     "silhouetteImg": "/img/irwinsil.png"
   },
@@ -330,84 +330,84 @@
   },
   {
     "id": 50,
-    "name": "keith",
+    "name": "Keith",
     "show": "Voltron",
     "img": "/img/keith.png",
     "silhouetteImg": "/img/keithsil.png"
   },
   {
     "id": 51,
-    "name": "kitty",
+    "name": "Kitty",
     "show": "Snorks",
     "img": "/img/kitty.png",
     "silhouetteImg": "/img/kittysil.png"
   },
   {
     "id": 52,
-    "name": "lance",
+    "name": "Lance",
     "show": "Voltron",
     "img": "/img/lance.jpg",
     "silhouetteImg": "/img/lancesil.png"
   },
   {
     "id": 53,
-    "name": "linus",
-    "show": "the peanuts",
+    "name": "Linus",
+    "show": "The Peanuts",
     "img": "/img/linus.png",
     "silhouetteImg": "/img/linussil.png"
   },
   {
     "id": 54,
-    "name": "lisa",
-    "show": "the simpsons",
+    "name": "Lisa Simpson",
+    "show": "The Simpsons",
     "img": "/img/lisa.png",
     "silhouetteImg": "/img/lisasil.png"
   },
   {
     "id": 55,
-    "name": "mandy",
-    "show": "grim adventures of billy and mandy",
+    "name": "Mandy",
+    "show": "Grim Adventures of Billy and Mandy",
     "img": "/img/mandy.png",
     "silhouetteImg": "/img/mandysil.png"
   },
   {
     "id": 56,
     "name": "Might Mouse",
-    "show": "Mighty mouse",
+    "show": "Mighty Mouse",
     "img": "/img/MightyMouse.png",
     "silhouetteImg": "/img/MightyMousesil.png"
   },
   {
     "id": 57,
-    "name": "occy",
-    "show": "snorks",
+    "name": "Occy",
+    "show": "Snorks",
     "img": "/img/occy.png",
     "silhouetteImg": "/img/occysil.png"
   },
   {
     "id": 58,
-    "name": "odie",
+    "name": "Odie",
     "show": "Garfield",
     "img": "/img/odie.png",
     "silhouetteImg": "/img/odiesil.png"
   },
   {
     "id": 59,
-    "name": "ord",
+    "name": "Ord",
     "show": "Dragon Tails",
     "img": "/img/ord.png",
     "silhouetteImg": "/img/ordsil.png"
   },
   {
     "id": 60,
-    "name": "patamon",
+    "name": "Patamon",
     "show": "Digimon",
     "img": "/img/patamon.png",
     "silhouetteImg": "/img/patamonsil.png"
   },
   {
     "id": 62,
-    "name": "pebbles",
+    "name": "Pebbles",
     "show": "The flintstones",
     "img": "/img/pebbles.png",
     "silhouetteImg": "/img/pebblessil.png"
@@ -421,136 +421,133 @@
   },
   {
     "id": 64,
-    "name": "plankton",
+    "name": "Plankton",
     "show": "Spongebob",
     "img": "/img/plankton.png",
     "silhouetteImg": "/img/planktonsil.png"
   },
   {
     "id": 65,
-    "name": "pooh",
-    "show": "The new adventures of winnie the pooh",
-    "img": "/img/pooh.png",
-    "silhouetteImg": "/img/poohsil.png"
+    "name": "Pooh",
+    "show": "The New Adventures of Winnie the Pooh",
+    "img": "/img/Pooh.png",
+    "silhouetteImg": "/img/Poohsil.png"
   },
   {
     "id": 66,
-    "name": "ren",
-    "show": "ren and stimpy",
-    "img": "/img/ren.png",
-    "silhouetteImg": "/img/rensil.png"
+    "name": "Ren",
+    "show": "Ren and Stimpy",
+    "img": "/img/Ren.png",
+    "silhouetteImg": "/img/Rensil.png"
   },
   {
     "id": 67,
-    "name": "roadrunner",
-    "show": "the looney tunes",
+    "name": "Roadrunner",
+    "show": "The Looney Tunes",
     "img": "/img/roadrunner.png",
     "silhouetteImg": "/img/roadrunnersil.png"
   },
   {
     "id": 68,
-    "name": "robin",
-    "show": "superfriends",
+    "name": "Robin",
+    "show": "Superfriends",
     "img": "/img/robin.png",
     "silhouetteImg": "/img/robinsil.png"
-  }
-  ,
+  },
   {
     "id": 69,
-    "name": "scooby doo",
-    "show": "scooby doo",
+    "name": "Scooby Doo",
+    "show": "Scooby Doo",
     "img": "/img/scoobydoo.png",
     "silhouetteImg": "/img/scoobydoosil.png"
-  }
-  ,
+  },
   {
     "id": 70,
-    "name": "shaggy",
+    "name": "Shaggy",
     "show": "Scooby Doo",
     "img": "/img/shaggy.png",
     "silhouetteImg": "/img/shaggysil.png"
-  }
-  ,
+  },
   {
     "id": 71,
-    "name": "snoopy",
-    "show": "the peanuts",
+    "name": "Snoopy",
+    "show": "The Peanuts",
     "img": "/img/snoopy.png",
     "silhouetteImg": "/img/snoopysil.png"
   },
   {
     "id": 72,
-    "name": "spiderman",
-    "show": "spiderman the animated series",
+    "name": "Spiderman",
+    "show": "Spiderman the Animated Series",
     "img": "/img/spiderman.png",
     "silhouetteImg": "/img/spidermansil.png"
-  }  ,
+  },
   {
     "id": 73,
-    "name": "spongebob",
+    "name": "Spongebob",
     "show": "Spongebob",
     "img": "/img/spongebob.png",
     "silhouetteImg": "/img/spongebobsil.png"
-  }  ,
+  },
   {
     "id": 74,
-    "name": "stimpson",
-    "show": "ren and stimpy",
+    "name": "Stimpson",
+    "show": "Ren and Stimpy",
     "img": "/img/snoopy.png",
     "silhouetteImg": "/img/stimpsonsil.png"
-  }  ,
+  },
   {
     "id": 75,
-    "name": "superman",
-    "show": "superfriends",
+    "name": "Superman",
+    "show": "Superfriends",
     "img": "/img/superman.png",
     "silhouetteImg": "/img/supermansil.png"
-  }  ,
+  },
   {
     "id": 76,
-    "name": "taz",
-    "show": "the looney tunes",
+    "name": "Taz",
+    "show": "The Looney Tunes",
     "img": "/img/taz.png",
     "silhouetteImg": "/img/tazsil.png"
-  }  ,
+  },
   {
     "id": 77,
-    "name": "tom",
+    "name": "Tom",
     "show": "Tom and Jerry",
     "img": "/img/tom.png",
-    "silhouetteImg": "/img/tomsil.png"
-  }  ,
+    "silhouetteImg": "/img/Tomsil.png"
+  },
   {
     "id": 78,
-    "name": "usagi",
-    "show": "sailor moon",
+    "name": "Usagi",
+    "show": "Sailor Moon",
     "img": "/img/usagi.png",
     "silhouetteImg": "/img/usagisil.png"
-  }  ,
+  },
   {
     "id": 79,
-    "name": "vanity",
+    "name": "Vanity",
     "show": "The Smurfs",
     "img": "/img/vanity.png",
     "silhouetteImg": "/img/vanitysil.png"
-  }  ,
+  },
   {
     "id": 80,
-    "name": "velma",
-    "show": "scooby doo",
+    "name": "Velma",
+    "show": "Scooby Doo",
     "img": "/img/velma.png",
     "silhouetteImg": "/img/velmasil.png"
-  }  ,
+  },
   {
     "id": 81,
-    "name": "yoko",
+    "name": "Yoko",
     "show": "YuYu Hakisho",
     "img": "/img/yoko.png",
     "silhouetteImg": "/img/yokosil.png"
-  }  ,
+  },
   {
     "id": 82,
-    "name": "yusuke",
+    "name": "Yusuke",
     "show": "YuYu Hakisho",
     "img": "/img/yusuke.png",
     "silhouetteImg": "/img/yusukesil.png"
