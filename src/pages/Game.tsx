@@ -2,8 +2,10 @@ import React, { useEffect, useState } from "react";
 import { Character } from "../utils/types";
 import { CharacterCard } from "../components/CharacterCard";
 import { LayoutPage } from "../components/Layouts/LayoutPage";
+import { SubmitScore } from "../components/SubmitScore";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart, faHeartBroken } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 export const Game = ({ characters }: { characters: Character[] }) => {
   const [score, setScore] = useState(0);
@@ -161,6 +163,13 @@ export const Game = ({ characters }: { characters: Character[] }) => {
             >
               Reset
             </button>
+            <Link
+              to="/submitScore"
+              component={<SubmitScore score={score} />}
+              className="next-button"
+            >
+              Submit Your Score
+            </Link>
           </div>
         )}
       </div>

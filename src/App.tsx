@@ -14,6 +14,7 @@ import { Game } from "./pages/Game";
 
 import characters from "../public/img/characters.json";
 import { Character } from "./utils/types";
+import { SubmitScore } from "./components/SubmitScore";
 
 library.add(fab, fas, far);
 
@@ -30,6 +31,7 @@ export default function App() {
           path="/game"
           element={<Game characters={characters as Character[]} />}
         />
+        <Route path="/SubmitScore" />
       </Routes>
     </BrowserRouter>
   );
