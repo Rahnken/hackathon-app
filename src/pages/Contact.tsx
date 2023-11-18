@@ -21,7 +21,7 @@ export default function Contact() {
         },
         {
           name: "Email",
-          url: "jessica.pickens@gmail.com",
+          url: "jessica.pickens2498@gmail.com",
         },
       ],
     },
@@ -79,7 +79,7 @@ export default function Contact() {
         If you have any questions or concerns, please feel free to reach out to
         us!
       </p>
-      <div className="grid-container">
+      <div className="flex-container">
         {creators.map((creator) => (
           <CreatorCard creator={creator} key={creator.name} />
         ))}

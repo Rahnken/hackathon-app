@@ -100,10 +100,12 @@ p {
   margin: -49px 0px 0px 0px;
 }
 .home-page-h3 {
-  margin: -49px 0px 0px 0px;
+  margin: 5px 0px 5px 0px;
+  padding: 10px;
+  text-decoration: underline solid var(--blue);
 }
 .home-page-p {
-  margin: 0rem 13.5rem;
+  margin: 0rem 10.5rem;
   padding: 0px var(--100px);
 }
 .glitch {
@@ -116,13 +118,6 @@ p {
 /* Game page css*/
 .game-page {
   margin: 0px;
-}
-
-div .card-container {
-  display: inline-block;
-  max-width: 19.875rem;
-  max-height: 27.25rem;
-  min-width: 14.75rem;
 }
 
 div .card-container img {
@@ -184,7 +179,36 @@ div .card-container img {
   padding: 5px;
   margin: 5px;
 }
+/*Contacts page*/
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.creatorName {
+  font-size: var(--25px);
+  color: black;
+  text-shadow: 1px 1px 1px var(--fontShadow);
+}
+.card-container2 {
+  margin: 15px;
+  background-color: var(--blue);
+  height: fit-content;
+  width: 400px;
+}
+.creator-img {
+  width: 250px;
+  border: 10px solid black;
+}
+ul {
+  padding: 0;
+  margin: 10px;
+}
+.links {
+  font-size: var(--20px);
+  color: black;
+  justify-content: center;
+}
 .error {
   font-size: var(--100px);
   font-weight: 600;
