@@ -33,12 +33,16 @@ export const SubmitScore = () => {
             className="glitch"
           />
           <input type="text" id="score" value={score} disabled />
-          <button type="submit">Submit</button>
+          <button className="next-button" type="submit">
+            Submit
+          </button>
         </form>
         {submitted && (
           <>
             <p>Thanks for submitting your score!</p>
-            <Link to="/highscore">View High Scores</Link>
+            <Link className="next-button" to="/highscore">
+              View High Scores
+            </Link>
           </>
         )}
       </div>

@@ -124,7 +124,7 @@ export const GameBoard = ({
               <FontAwesomeIcon
                 key={index}
                 size="3x"
-                color={index < lives ? "var(--fontGreen)" : "grey"}
+                color={index < lives ? "black" : "grey"}
                 {...(index < lives ? { beat: true } : {})}
                 icon={index < lives ? faHeart : faHeartBroken}
               />

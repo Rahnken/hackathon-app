@@ -32,8 +32,8 @@ export const CharacterCard = ({
             }}
             onLoad={handleImageLoad} // Handle image load event
           />
-          <h3>{character.name}</h3>
-          <h4>{character.show}</h4>
+          <p>{character.name}</p>
+          <p>{character.show}</p>
         </div>
       ) : (
         <div className="card-container">

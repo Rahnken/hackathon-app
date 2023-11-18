@@ -27,7 +27,7 @@ export function About() {
           </ul>
           <p>
             You will continue to go through the game until you have lost all of
-            your lives. If your proud summit your score! if not try for a new
+            your lives. If your proud submit your score! If not try for a new
             highscore!
           </p>
         </div>

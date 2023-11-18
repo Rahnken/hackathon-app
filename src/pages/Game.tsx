@@ -78,7 +78,13 @@ export const Game = ({ characters }: { characters: Character[] }) => {
         <div className="reset-button-container">
           <h3>Game Over!</h3>
           <h3>Score: {score}</h3>
-          <Link to={`/submitScore?score=${highScore}`}>Submit Your Score</Link>
+          <Link
+            id="submit-score-button"
+            className="next-button"
+            to={`/submitScore?score=${highScore}`}
+          >
+            Submit Your Score
+          </Link>
           <button id="reset-button" className="next-button" onClick={resetGame}>
             Reset
           </button>

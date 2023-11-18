@@ -166,15 +166,23 @@ div .card-container img {
   padding: 5px 10px;
   letter-spacing: 1px;
   margin: 5px;
+  color: black;
 }
-
+.reset-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#submit-score-button {
+  border-radius: 15%;
+}
 .guess-button-container button:hover {
   color: black;
   font-size: 20.5px;
 }
 svg {
   padding: 10px 20px;
-  color: black;
 }
 .score-container {
   position: absolute;
