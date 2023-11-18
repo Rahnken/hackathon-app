@@ -13,7 +13,6 @@ export const CharacterCard = ({
   const [loading, setLoading] = useState(true);
 
   const handleImageLoad = () => {
-    console.log("Image Loaded");
     setLoading(false); // Set loading to false when image is loaded
     onLoad(); // Call the onLoad callback provided by the parent component
   };
