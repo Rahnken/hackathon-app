@@ -1,0 +1,44 @@
+{
+  "highscores": [
+    {
+      "name": "AAA",
+      "score": 100
+    },
+    {
+      "name": "BBB",
+      "score": 200
+    },
+    {
+      "name": "CCC",
+      "score": 300
+    },
+    {
+      "name": "DDD",
+      "score": 400
+    },
+    {
+      "name": "EEE",
+      "score": 500
+    },
+    {
+      "name": "FFF",
+      "score": 600
+    },
+    {
+      "name": "GGG",
+      "score": 700
+    },
+    {
+      "name": "HHH",
+      "score": 800
+    },
+    {
+      "name": "III",
+      "score": 900
+    },
+    {
+      "name": "JJJ",
+      "score": 1000
+    }
+  ]
+}

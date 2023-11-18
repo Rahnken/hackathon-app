@@ -18,3 +18,7 @@ export type Creator = {
   };
   socials: SocialsObject[];
 };
+export type Score = {
+  name: string;
+  value: number;
+};
