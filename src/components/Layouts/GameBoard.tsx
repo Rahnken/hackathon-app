@@ -44,8 +44,6 @@ export const GameBoard = ({
     event.preventDefault();
     const target = event.target as HTMLButtonElement;
     const guess = target.innerText;
-
-    console.log(guess);
     setIsFlipped(!isFlipped);
     setHasGuessed(true);
 
@@ -54,6 +52,7 @@ export const GameBoard = ({
     } else {
       setLives(lives - 1);
       if (lives === 0) {
+        updateScore(false);
         onGameStateChanged("reset");
       }
     }
