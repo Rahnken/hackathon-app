@@ -7,6 +7,10 @@ export const NavBar = () => {
         Home
         <img src="src\img\homeicon.png" alt="" />
       </Link>
+      <Link to="/about">
+        Instructions
+        <img src="src\img\abouticon.png" alt="" />
+      </Link>
       <Link to="/game">
         game
         <img src="\src\img\joystickicon.png" alt="" />
@@ -14,10 +18,6 @@ export const NavBar = () => {
       <Link to="/highscore">
         High Score
         <img src="src\img\highscoreicon.png" alt="" />
-      </Link>
-      <Link to="/about">
-        About
-        <img src="src\img\abouticon.png" alt="" />
       </Link>
       <Link to="/contact">
         Contact
