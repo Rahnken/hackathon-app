@@ -1,70 +1,88 @@
+import { CreatorCard } from "../components/CreatorCard";
 import { LayoutPage } from "../components/Layouts/LayoutPage";
+import { Creator } from "../utils/types";
 
 export default function Contact() {
+  const creators: Creator[] = [
+    {
+      name: "Jessica Pickens",
+      img: {
+        src: "src/img/RickJess.png",
+        alt: "Rick and Morty Jess",
+      },
+      socials: [
+        {
+          name: "Linkedin",
+          url: "https://www.linkedin.com/in/jessica-pickens-6b1a1b1b6/",
+        },
+        {
+          name: "Github",
+          url: "https://github.com/Jessi2498",
+        },
+        {
+          name: "Email",
+          url: "jessica.pickens@gmail.com",
+        },
+      ],
+    },
+    {
+      name: "Eric Donnelly",
+      img: {
+        src: "src/img/RickEric.png",
+        alt: "Rick and Morty Eric",
+      },
+      socials: [
+        {
+          name: "Linkedin",
+          url: "https://www.linkedin.com/in/erdonnelly/",
+        },
+        {
+          name: "Github",
+          url: "https://github.com/Rahnken",
+        },
+        {
+          name: "Email",
+          url: "eric@donnellydev.ca",
+        },
+      ],
+    },
+    {
+      name: "Jon Duff",
+      img: {
+        src: "src/img/RickJon.png",
+        alt: "Rick and Morty Jon",
+      },
+      socials: [
+        {
+          name: "Linkedin",
+          url: "https://www.linkedin.com/in/jonathan-duff",
+        },
+        {
+          name: "Github",
+          url: "https://github.com/DuffCoding",
+        },
+        {
+          name: "Email",
+          url: "duffx069@umn.edu",
+        },
+        {
+          name: "Website",
+          url: "https://codepen.io/Jonathan-Duff/pen/VwrqmvG",
+        },
+      ],
+    },
+  ];
   return (
     <LayoutPage>
       <h2>Contact</h2>
-      {/* <!--       TODO: Refactor out into a creator card --> */}
+      <p>
+        If you have any questions or concerns, please feel free to reach out to
+        us!
+      </p>
       <div className="grid-container">
-        {/* <!--             <CreatorCard name="Jessica" img="img..." socials= [socials]/>  --> */}
-        <div className="person-one">
-          <h4 className="Name">Jessica Pickens</h4>
-          <div className="img-container">
-            <img src="src/img/RickJess.png" alt="Rick and Morty Jess" />
-          </div>
-          <ul>
-            <li>facebook</li>
-            <li>linkedin</li>
-            <li>Github</li>
-            <li>jessica.pickens@gmail.com</li>
-          </ul>
-        </div>
-        <div className="person-one">
-          <h4 className="Name">Eric Donnelly</h4>
-          <div className="img-container">
-            <img src="src/img/RickEric.png" alt="Rick and Morty Eric" />
-          </div>
-          <ul>
-            <li>facebook</li>
-            <li>
-              linkedin{" "}
-              <a
-                href="https://www.linkedin.com/in/erdonnelly/"
-                id="linkedin"
-              ></a>
-            </li>
-            <li>
-              Github <a href="https://github.com/Rahnken" id="git"></a>
-            </li>
-            <li>eric.donnelly@gmail.com</li>
-          </ul>
-        </div>
-        <div className="person-one">
-          <h4 className="Name">Jon Duff</h4>
-          <div className="img-container">
-            <img src="src/img/RickJon.png" alt="Rick and Morty Jon" />
-          </div>
-          <ul>
-            <li>
-              linkedin{" "}
-              <a
-                href="https://www.linkedin.com/in/jonathan-duff"
-                id="linkedin"
-              ></a>
-            </li>
-            <li>
-              GitHub <a href="https://github.com/DuffCoding" id="git"></a>
-            </li>
-            <li>duffx069@umn.edu</li>
-            <li>
-              Website{" "}
-              <a
-                href="https://codepen.io/Jonathan-Duff/pen/VwrqmvG"
-                id="CodePen Website"
-              ></a>
-            </li>
-          </ul>
-        </div>
+        {creators.map((creator) => (
+          <CreatorCard creator={creator} key={creator.name} />
+        ))}
       </div>
     </LayoutPage>
   );
