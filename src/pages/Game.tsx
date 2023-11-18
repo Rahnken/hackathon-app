@@ -37,7 +37,11 @@ export const Game = ({ characters }: { characters: Character[] }) => {
   return (
     <LayoutPage>
       <div className="body-content">
-        <h2 className="game-page">Guess Who Game</h2>
+        <h2 className="game-page">
+          <img src="src\img\2fly4wifi-logo.png" alt="" className="logo" />
+          Guess Who Game
+          <img src="src\img\2fly4wifi-logo.png" alt="" className="logo" />
+        </h2>
         {gameState === "notStarted" && (
           <div className="start-button-container">
             <button

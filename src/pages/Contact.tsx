@@ -13,7 +13,7 @@ export default function Contact() {
       socials: [
         {
           name: "Linkedin",
-          url: "https://www.linkedin.com/in/jessica-pickens-6b1a1b1b6/",
+          url: "https://www.linkedin.com/in/jessica-pickens-186835141/",
         },
         {
           name: "Github",

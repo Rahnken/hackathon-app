@@ -94,33 +94,42 @@ export const GameBoard = ({
   return (
     <>
       <div className="character-container-main">
-        <CharacterCard
-          character={characterArray[currentCharacterIndex]}
-          isFlipped={isFlipped}
-          onLoad={handleImageLoad}
-        />
-      </div>
-      <div
-        className="gameContainer"
-        style={{
-          display: "flex",
-          alignContent: "center",
-          justifyContent: "center",
-        }}
-      >
+        <div className="color-2">
+          <div className="color-3">
+            <div className="color-4">
+              <div className="color-5">
+                <CharacterCard
+                  character={characterArray[currentCharacterIndex]}
+                  isFlipped={isFlipped}
+                  onLoad={handleImageLoad}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
         <div
-          className="lives-container"
-          style={{ display: "flex", justifyContent: "space-between" }}
+          className="gameContainer"
+          style={{
+            display: "flex",
+            alignContent: "center",
+            justifyContent: "center",
+          }}
         >
-          {[...Array(maxLives)].map((_, index) => (
-            <FontAwesomeIcon
-              key={index}
-              size="3x"
-              color={index < lives ? "var(--fontGreen)" : "grey"}
-              {...(index < lives ? { beat: true } : {})}
-              icon={index < lives ? faHeart : faHeartBroken}
-            />
-          ))}
+          {" "}
+          <div
+            className="lives-container"
+            style={{ display: "flex", justifyContent: "space-between" }}
+          >
+            {[...Array(maxLives)].map((_, index) => (
+              <FontAwesomeIcon
+                key={index}
+                size="3x"
+                color={index < lives ? "var(--fontGreen)" : "grey"}
+                {...(index < lives ? { beat: true } : {})}
+                icon={index < lives ? faHeart : faHeartBroken}
+              />
+            ))}
+          </div>
         </div>
 
         {!hasGuessed && !loading && (

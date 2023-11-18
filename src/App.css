@@ -116,6 +116,12 @@ p {
 }
 
 /* Game page css*/
+img.logo {
+  height: 100px;
+}
+h2.game-page {
+  padding: 20px;
+}
 .game-page {
   margin: 0px;
 }
@@ -127,27 +133,27 @@ div .card-container img {
 }
 
 .character-container-main,
-.color-container-2,
-.color-container-3,
-.color-container-4,
-.color-container-5 {
-  padding: 25px;
+.color-2,
+.color-3,
+.color-4,
+.color-5 {
+  padding: 20px;
   border: 3px solid black;
 }
 .character-container-main {
   background-color: var(--yellow);
-  margin: 1px 600px;
+  margin: 1px 400px;
 }
-.color-container-2 {
+.color-2 {
   background-color: var(--fontShadow);
 }
-.color-container-3 {
+.color-3 {
   background-color: var(--blue);
 }
-.color-container-4 {
+.color-4 {
   background-color: var(--fontGreen);
 }
-.color-container-5 {
+.color-5 {
   background-color: black;
 }
 .guess-button-container button,
@@ -166,7 +172,18 @@ div .card-container img {
   color: black;
   font-size: 20.5px;
 }
-
+svg {
+  padding: 10px 20px;
+  color: black;
+}
+.score-container {
+  position: absolute;
+  top: 375px;
+  right: 65%;
+  background: linear-gradient(45deg, var(--blue), var(--yellow));
+  border: 5px solid var(--fontShadow);
+  box-shadow: 3px 3px 7pc var(--fontGreen);
+}
 .score h3,
 .high-score h3 {
   color: black;
@@ -179,6 +196,18 @@ div .card-container img {
   padding: 5px;
   margin: 5px;
 }
+.guess-button-container {
+  position: absolute;
+  top: 350px;
+  right: 500px;
+}
+button .guess-button {
+  margin: 15px;
+}
+.guess-button {
+  display: flex;
+}
+
 /*Contacts page*/
 
 .flex-container {
@@ -209,10 +238,34 @@ ul {
   color: black;
   justify-content: center;
 }
+
+/*instructions page*/
+.portal {
+  height: 200px;
+  width: 200px;
+}
+.game-instructions {
+  color: var(--fontGreen);
+  font-size: var(--25px);
+  text-transform: uppercase;
+}
 .error {
   font-size: var(--100px);
   font-weight: 600;
   letter-spacing: 3px;
+}
+
+img.morty {
+  height: 149px;
+  position: relative;
+  top: 10px;
+  left: 25px;
+}
+img.rick {
+  height: 175px;
+  position: relative;
+  top: -32px;
+  right: 305px;
 }
 
 @keyframes glitch {
