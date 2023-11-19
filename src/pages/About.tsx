@@ -7,9 +7,9 @@ export function About() {
       <div className="instructions-body">
         <div className="disappearingAnimations">
           <div className="img-container">
-            <img src="src/pages/mortyportal.gif" alt="" className="portal" />
-            <img src="src/img/rick.png" alt="" className="rick" />
-            <img src="src/img/morty.png" alt="" className="morty" />
+            <img src="/img/mortyportal.gif" alt="" className="portal" />
+            <img src="/img/rick.png" alt="" className="rick" />
+            <img src="/img/morty.png" alt="" className="morty" />
           </div>
         </div>
         <div className="instructions">
