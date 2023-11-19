@@ -11,11 +11,14 @@ export const SubmitScore = () => {
   const score = queryParams.get("score") || [];
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:8000/highscores", {
-      method: "POST",
-      headers: { ["Content-Type"]: "application/json" },
-      body: JSON.stringify({ name, score }),
-    });
+    const response = await fetch(
+      "https://hackathon-api-6grr.onrender.com/api/highscores",
+      {
+        method: "POST",
+        headers: { ["Content-Type"]: "application/json" },
+        body: JSON.stringify({ name, score }),
+      }
+    );
     const data = await response.json();
     // Just Here to use the data variable
     console.log(data);

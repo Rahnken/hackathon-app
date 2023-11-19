@@ -21,6 +21,6 @@ export type Creator = {
 export type Score = {
   id: number;
   name: string;
-  value: number;
+  score: number;
 };
 export type GameState = "playing" | "reset" | "notStarted";
