@@ -6,7 +6,7 @@ export const LayoutPage = ({ children }: { children: ReactNode }) => {
     <>
       <div className="flexContainer">
         <div className="left-sidebar">
-          <img src="src\img\left-sidebar.png" alt="cartoon-collage" />
+          <img src="\img\left-sidebar.png" alt="cartoon-collage" />
         </div>
 
         <main className="container-body flex1">
@@ -14,7 +14,7 @@ export const LayoutPage = ({ children }: { children: ReactNode }) => {
           {children}
         </main>
         <div className="right-sidebar">
-          <img src="src\img\right-sidebar1.png" alt="anime-collage" />
+          <img src="\img\right-sidebar1.png" alt="anime-collage" />
         </div>
       </div>
     </>

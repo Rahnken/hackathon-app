@@ -6,7 +6,7 @@ export default function Home() {
       <div className="container-title">
         <h1 className="glitch home-page-h1">2fly4wifi</h1>
         <div className="logo-container">
-          <img src="src\img\2fly4wifi-logo.png" alt="2fly4wifi-logo" />
+          <img src="img\2fly4wifi-logo.png" alt="2fly4wifi-logo" />
         </div>
         <h2 className="glitch home-page-h2">by jon's angels</h2>
       </div>

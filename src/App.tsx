@@ -12,7 +12,7 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import { far } from "@fortawesome/free-regular-svg-icons";
 import { Game } from "./pages/Game";
 
-import characters from "./img/characters.json";
+import characters from "./utils/characters.json";
 import { Character } from "./utils/types";
 import { SubmitScore } from "./components/SubmitScore";
 
