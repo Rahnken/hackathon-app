@@ -17,6 +17,7 @@ export const SubmitScore = () => {
       body: JSON.stringify({ name, score }),
     });
     const data = await response.json();
+    // Just Here to use the data variable
     console.log(data);
     setSubmitted(true);
   };
