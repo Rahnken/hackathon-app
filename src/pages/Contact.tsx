@@ -7,7 +7,7 @@ export default function Contact() {
     {
       name: "Jessica Pickens",
       img: {
-        src: "src/img/RickJess.png",
+        src: "/img/RickJess.png",
         alt: "Rick and Morty Jess",
       },
       socials: [
@@ -28,7 +28,7 @@ export default function Contact() {
     {
       name: "Eric Donnelly",
       img: {
-        src: "src/img/RickEric.png",
+        src: "/img/RickEric.png",
         alt: "Rick and Morty Eric",
       },
       socials: [
@@ -49,7 +49,7 @@ export default function Contact() {
     {
       name: "Jon Duff",
       img: {
-        src: "src/img/RickJon.png",
+        src: "/img/RickJon.png",
         alt: "Rick and Morty Jon",
       },
       socials: [

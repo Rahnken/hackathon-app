@@ -5,23 +5,23 @@ export const NavBar = () => {
     <nav className="container-nav">
       <Link to="/">
         Home
-        <img src="src\img\homeicon.png" alt="" />
+        <img src="\img\homeicon.png" alt="" />
       </Link>
       <Link to="/about">
         Instructions
-        <img src="src\img\abouticon.png" alt="" />
+        <img src="\img\abouticon.png" alt="" />
       </Link>
       <Link to="/game">
         game
-        <img src="\src\img\joystickicon.png" alt="" />
+        <img src="\img\joystickicon.png" alt="" />
       </Link>
       <Link to="/highscore">
         High Score
-        <img src="src\img\highscoreicon.png" alt="" />
+        <img src="\img\highscoreicon.png" alt="" />
       </Link>
       <Link to="/contact">
         Contact
-        <img src="src\img\contacticon.png" alt="" />
+        <img src="\img\contacticon.png" alt="" />
       </Link>
     </nav>
   );
