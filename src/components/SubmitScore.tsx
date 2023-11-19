@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { LayoutPage } from "../components/Layouts/LayoutPage";
 import { useSearchParams } from "react-router-dom";
 import { Link } from "react-router-dom";
@@ -9,7 +9,7 @@ export const SubmitScore = () => {
   const [submitted, setSubmitted] = useState(false);
   const [queryParams] = useSearchParams();
   const score = queryParams.get("score") || [];
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const response = await fetch("http://localhost:8000/highscores", {
       method: "POST",
@@ -17,6 +17,7 @@ export const SubmitScore = () => {
       body: JSON.stringify({ name, score }),
     });
     const data = await response.json();
+    console.log(data);
     setSubmitted(true);
   };
   return (

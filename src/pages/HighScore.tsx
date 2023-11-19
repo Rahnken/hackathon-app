@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import "../tableStyles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMedal } from "@fortawesome/free-solid-svg-icons";
+import { Score } from "../utils/types";
 
 export function HighScore() {
   const { data: scores, isPending, error } = useFetch(
@@ -13,7 +14,11 @@ export function HighScore() {
 
   useEffect(() => {
     if (scores && scores.length > 0) {
-      const sorted = scores.slice().sort((a, b) => b.score - a.score);
+      const sorted = scores
+        .slice()
+        .sort(
+          (a: { score: number }, b: { score: number }) => b.score - a.score
+        );
       setSortedScores(sorted);
     }
   }, [scores]);
@@ -32,7 +37,7 @@ export function HighScore() {
                 <th className="glitch">Name</th>
                 <th className="glitch">Score</th>
               </tr>
-              {sortedScores.map((score, index) => {
+              {sortedScores.map((score: Score, index) => {
                 let medalIcon = null;
 
                 if (index === 0) {
@@ -52,7 +57,7 @@ export function HighScore() {
                       {index + 1}
                     </td>
                     <td className="glitch">{score.name}</td>
-                    <td className="glitch">{score.score}</td>
+                    <td className="glitch">{score.value}</td>
                   </tr>
                 );
               })}
