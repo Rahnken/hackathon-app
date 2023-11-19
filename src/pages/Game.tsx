@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Character, GameState } from "../utils/types";
 import { LayoutPage } from "../components/Layouts/LayoutPage";
 import { Link } from "react-router-dom";

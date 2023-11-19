@@ -19,6 +19,7 @@ export type Creator = {
   socials: SocialsObject[];
 };
 export type Score = {
+  id: number;
   name: string;
   value: number;
 };
