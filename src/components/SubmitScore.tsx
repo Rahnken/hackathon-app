@@ -11,6 +11,7 @@ export const SubmitScore = () => {
   const score = queryParams.get("score") || [];
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setSubmitted(true);
     const response = await fetch(
       "https://hackathon-api-6grr.onrender.com/api/highscores",
       {
@@ -22,26 +23,27 @@ export const SubmitScore = () => {
     const data = await response.json();
     // Just Here to use the data variable
     console.log(data);
-    setSubmitted(true);
   };
   return (
     <LayoutPage>
       <div className="submit-score-container">
         <h2>Submit Your Score</h2>
-        <form onSubmit={handleSubmit}>
-          <label htmlFor="name">Name</label>
-          <input
-            type="text"
-            id="name"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            className="glitch"
-          />
-          <input type="text" id="score" value={score} disabled />
-          <button className="next-button" type="submit">
-            Submit
-          </button>
-        </form>
+        {!submitted && (
+          <form onSubmit={handleSubmit}>
+            <label htmlFor="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              className="glitch"
+            />
+            <input type="text" id="score" value={score} disabled />
+            <button className="next-button" type="submit">
+              Submit
+            </button>
+          </form>
+        )}
         {submitted && (
           <>
             <p>Thanks for submitting your score!</p>
