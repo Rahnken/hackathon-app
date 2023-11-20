@@ -28,20 +28,22 @@ export const SubmitScore = () => {
     <LayoutPage>
       <div className="submit-score-container">
         <h2>Submit Your Score</h2>
-        <form onSubmit={handleSubmit}>
-          <label htmlFor="name">Name</label>
-          <input
-            type="text"
-            id="name"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            className="glitch"
-          />
-          <input type="text" id="score" value={score} disabled />
-          <button className="next-button" type="submit">
-            Submit
-          </button>
-        </form>
+        {!submitted && (
+          <form onSubmit={handleSubmit}>
+            <label htmlFor="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              className="glitch"
+            />
+            <input type="text" id="score" value={score} disabled />
+            <button className="next-button" type="submit">
+              Submit
+            </button>
+          </form>
+        )}
         {submitted && (
           <>
             <p>Thanks for submitting your score!</p>
